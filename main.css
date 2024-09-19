@@ -1,0 +1,24 @@
+body {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+		'Lucida Sans', Arial, sans-serif;
+}
+.container {
+	display: grid;
+	grid-template-columns:
+		minmax(1.2rem, 1fr)
+		minmax(auto, 57ch)
+		minmax(1.2rem, 1fr);
+	min-height: 100vh;
+	box-shadow: 0 0 3px 1px #333;
+}
+
+main {
+	grid-column: 2;
+}
+
+img {
+	grid-column: 1 / 4;
+	width: 100%;
+	max-width: 100ch;
+	justify-self: center;
+}
