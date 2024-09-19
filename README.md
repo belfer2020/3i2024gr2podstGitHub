@@ -1,1 +1,1 @@
-# 3i2024gr2podstGitHub
+# 3Nasze pierwsze repo
